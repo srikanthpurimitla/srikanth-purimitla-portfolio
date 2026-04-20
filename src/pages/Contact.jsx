@@ -57,7 +57,7 @@ const Contact = () => {
 
           <a 
             href="tel:+918096696726"
-            className="group p-10 md:p-14 glass-elite rounded-[2.5rem] border border-white/5 bg-white/[0.005] flex flex-col items-center gap-8 hover:border-blue/10 transition-all shadow-2xl w-full lg:col-span-2 max-w-2xl mx-auto"
+            className="group p-10 md:p-14 glass-elite rounded-[2.5rem] border border-white/5 bg-white/[0.005] flex flex-col items-center gap-8 hover:border-blue/10 transition-all shadow-2xl w-full"
           >
             <div className="w-16 h-16 rounded-2xl bg-blue/5 border border-blue/10 flex items-center justify-center text-blue/30 group-hover:text-blue group-hover:scale-105 transition-all shadow-lg">
               <span className="text-2xl font-black italic">#</span>
@@ -65,6 +65,21 @@ const Contact = () => {
             <div className="flex flex-col items-center gap-3">
               <div className="text-[9px] font-black text-gray/30 uppercase tracking-[4px]">Direct Line</div>
               <div className="text-base md:text-lg lg:text-xl font-black text-center opacity-60 group-hover:opacity-100 transition-opacity uppercase tracking-tighter leading-relaxed">+91 8096696726</div>
+            </div>
+          </a>
+
+          <a 
+            href="https://github.com/srikanthpurimitla/portfolio-terminal"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group p-10 md:p-14 glass-elite rounded-[2.5rem] border border-white/5 bg-white/[0.005] flex flex-col items-center gap-8 hover:border-white/10 transition-all shadow-2xl w-full lg:col-span-2 max-w-2xl mx-auto"
+          >
+            <div className="w-16 h-16 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-white/30 group-hover:text-white group-hover:scale-105 transition-all shadow-lg">
+               <Github size={32} />
+            </div>
+            <div className="flex flex-col items-center gap-3">
+              <div className="text-[9px] font-black text-gray/30 uppercase tracking-[4px]">Source Control</div>
+              <div className="text-base md:text-lg lg:text-xl font-black text-center opacity-60 group-hover:opacity-100 transition-opacity uppercase tracking-tighter leading-relaxed">GitHub Repository</div>
             </div>
           </a>
         </div>

@@ -15,7 +15,7 @@ const RESUME_DATA = {
   deep_dive_migration: `Problem:\nLegacy recruitment system needed migration without data loss\n\nSolution:\nDesigned APIs, implemented validation logic, and handled structured data migration\n\nImpact:\nMigration completed successfully with zero data loss`,
   projects: `E-Commerce Web Application (Full Stack - Personal Project)\n- Built using Spring Boot (backend) and React (frontend)\n- Implemented product catalog, cart, and order management\n- Developed REST APIs and handled backend logic\n- Integrated MySQL database\n- Designed responsive UI using React and Tailwind CSS`,
   ai: `- Used Cursor, Claude, and Antigravity for development acceleration and debugging\n- Leveraged Antigravity's agentic capabilities for complex architectural refactoring\n- Reduced repetitive coding effort while ensuring production-quality code.`,
-  contact: `Email: srikanthpurimitla3@gmail.com\nMobile: +91 8096696726\nLinkedIn: https://linkedin.com/in/srikanth-purimitla`,
+  contact: `Email: srikanthpurimitla3@gmail.com\nMobile: +91 8096696726\nLinkedIn: https://linkedin.com/in/srikanth-purimitla\nGitHub: https://github.com/srikanthpurimitla/portfolio-terminal`,
   exit: `Thank you for visiting.`
 };
 
