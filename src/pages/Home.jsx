@@ -140,7 +140,7 @@ const Home = () => {
               </div>
 
               {/* Right: The Terminal Hub */}
-              <div className="w-full lg:w-[58%] h-[550px] md:h-[650px] lg:h-[700px] relative z-10 order-1 lg:order-2 mt-4 lg:mt-0">
+              <div className="w-full lg:w-[58%] h-[550px] md:h-[650px] lg:h-[700px] relative z-10 order-1 lg:order-2 mt-8 md:mt-4 lg:mt-0">
                 <Terminal command={activeSection} content={RESUME_DATA[activeSection]} />
 
                 {/* Diagnostic Stats Overlay */}
